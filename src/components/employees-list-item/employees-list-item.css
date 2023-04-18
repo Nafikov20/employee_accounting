@@ -3,14 +3,14 @@
 
 .list__group-item {
     padding: 15px 20px;
-    border-bottom: 1px solid #3d5a80;
+    border-bottom: 1px solid rgb(171, 53, 2);
 }
 
 .list__group-item:last-child {
     border-bottom: none;
 }
 
-.list-g__roup-item span {
+.list__group-item span {
     line-height: 35px;
     font-size: 20px;
     cursor: pointer;
@@ -33,15 +33,17 @@
     cursor: pointer;
 }
 
-.list__group-item .btn__cookie {
+.list__group-item .btn-cookie {
+    cursor: pointer;
     color: #e09f3e;
 }
 
-.list__group-item .btn__trash {
+.list__group-item .btn-trash {
+    cursor: pointer;
     color: #e5383b;
 }
 
-.list__group-item .fa__star {
+.list__group-item .fa-star {
     width: 35px;
     height: 35px;
     text-align: center;
@@ -53,7 +55,7 @@
     opacity: 0;
 }
 
-.list__group-item.like .fa__star {
+.list__group-item.like .fa-star {
     opacity: 1;
     transform: translateX(0px);
 }
@@ -62,6 +64,6 @@
     color: #e09f3e;
 }
 
-.list__group-item.increase .btn__star {
+.list__group-item.increase .btn-star {
     color: #aeaeae;
 }
