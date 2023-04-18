@@ -11,6 +11,14 @@ import './app.css';
 
 
 export const App = () => {
+
+    const data = [
+        {name: "Ivan I.", salary: 3000, increase: true},
+        {name: "Alex M.", salary: 800, increase: false},
+        {name: "John C.", salary: 1000, increase: false},
+        {name: "Mark R.", salary: 11000, increase: false},
+    ]
+
     return (
         <div className='app'>
             <AppInfo />
@@ -20,7 +28,7 @@ export const App = () => {
                 <AppFilter/>
             </div>
 
-            <EmployeesList />
+            <EmployeesList data={data}/>
             <EmployeesAddForm/>
         </div>
     );
