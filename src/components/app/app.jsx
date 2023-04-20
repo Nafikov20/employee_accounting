@@ -13,10 +13,10 @@ import './app.css';
 export const App = () => {
 
     const data = [
-        {name: "Ivan I.", salary: 3000, increase: true},
-        {name: "Alex M.", salary: 800, increase: false},
-        {name: "John C.", salary: 1000, increase: false},
-        {name: "Mark R.", salary: 11000, increase: false},
+        {name: "Ivan I.", salary: 3000, increase: true, id: 1},
+        {name: "Alex M.", salary: 800, increase: false, id: 2},
+        {name: "John C.", salary: 1000, increase: false, id: 3},
+        {name: "Mark R.", salary: 11000, increase: false, id: 4},
     ]
 
     return (
