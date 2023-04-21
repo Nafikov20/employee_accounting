@@ -3,7 +3,7 @@
 
 .list__group-item {
     padding: 15px 20px;
-    border-bottom: 1px solid rgb(171, 53, 2);
+    border-bottom: 1px solid rgb(220, 74, 11, 0.36);
 }
 
 .list__group-item:last-child {
@@ -60,6 +60,9 @@
     transform: translateX(0px);
 }
 
+.list__group-item-input {
+    border-radius: 5px;
+}
 .list__group-item.increase .list__group-item-label, .list__group-item.increase .list__group-item-input {
     color: #e09f3e;
 }
