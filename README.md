@@ -1,3 +1,6 @@
+to view the project, follow the link https://nafikov20.github.io/employee_accounting/
+чтобы просмотреть проект, пройдите по ссылке https://nafikov20.github.io/employee_accounting/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
